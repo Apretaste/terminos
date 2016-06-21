@@ -9,6 +9,7 @@
 	<li>Todo contenido insertado debe respetar los derechos humanos, las leyes vigentes, la moral y el orden p&uacute;blico en Cuba.</li>
 	<li>Todo contenido insertado debe respetar la propiedad intelectual. No inserte textos o im&aacute;genes de terceros sin previo derecho de divulgaci&oacute;n.</li>
 	<li>Apretaste no es necesariamente parte de negociaciones, transacciones, ni acuerdos que surjan durante su utilizaci&oacute;n.</li>
+	<li>Los cr&eacute;ditos de Apretaste (&sect;) son un sistema de puntos sin representaci&oacute;n monetaria.</li>
 	<li>Todo contenido que viole estos t&eacute;rminos de uso puede ser eliminado por el equipo de Apretate sin previa notificaci&oacute;n.</li>
 	<li>En caso de sospechar de alguna violaci&oacute;n a estos t&eacute;rminos de uso, usted debe reportarlo a nuestro equipo de soporte al usuario.</li>
 	<li>En caso de que estos t&eacute;rminos cambien, debe ajustar con prontitud cualquier contenido escrito por usted para seguir cumpliendo con nuestros t&eacute;rminos.</li>
