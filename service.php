@@ -7,10 +7,11 @@ class Terminos extends Service
 	 *
 	 * @param Request
 	 * @return Response
-	 * */
+	 */
 	public function _main(Request $request)
 	{
 		$response = new Response();
+		$response->setCache("month");
 		$response->setResponseSubject("Terminos de uso de Apretaste");
 		$response->createFromTemplate("basic.tpl", array());
 		return $response;
