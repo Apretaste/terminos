@@ -21,6 +21,6 @@
 
 {space5}
 
-<p>Si usted est&aacute; en desacuerdo con estos t&eacute;rminos de uso, por favor {link href="EXCLUYEME" caption="excl&uacute;yase"} y no contin&uacute;e el uso de Apretaste.</p>
+<p>Si usted est&aacute; en desacuerdo con estos t&eacute;rminos de uso, por favor {link href="SUSCRIPCION EXCLUYEME" caption="excl&uacute;yase"} y no contin&uacute;e el uso de Apretaste.</p>
 
 <p>La &uacute;ltima actualizaci&oacute;n de estos t&eacute;rminos fue hecha el 4 de Agosto del 2017. Estos t&eacute;rminos pueden estar desactualizados. Obtenga la {link href="TERMINOS" caption="versi&oacute;n m&aacute;s reciente"}.</p>
