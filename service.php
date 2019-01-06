@@ -6,11 +6,11 @@ class Service
 	 * Main function
 	 *
 	 * @param Request
-	 * @return Response
+	 * @param Response
 	 */
 	public function _main(Request $request, Response &$response)
 	{
 		$response->setCache("month");
-		$response->createFromTemplate("home.tpl", []);
+		$response->setTemplate("home.ejs", []);
 	}
 }
