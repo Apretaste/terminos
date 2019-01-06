@@ -1,19 +1,16 @@
 <?php
 
-class Terminos extends Service
+class Service
 {
 	/**
-	 * Function executed when the service is called
+	 * Main function
 	 *
 	 * @param Request
 	 * @return Response
 	 */
-	public function _main(Request $request)
+	public function _main(Request $request, Response &$response)
 	{
-		$response = new Response();
 		$response->setCache("month");
-		$response->setResponseSubject("Terminos de uso de Apretaste");
-		$response->createFromTemplate("basic.tpl", array());
-		return $response;
+		$response->createFromTemplate("home.tpl", []);
 	}
 }
