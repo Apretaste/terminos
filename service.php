@@ -8,9 +8,9 @@ class Service
 	 * @param Request
 	 * @param Response
 	 */
-	public function _main(Request $request, Response &$response)
+	public function _main(Request $request, Response $response)
 	{
 		$response->setCache("month");
-		$response->setTemplate("home.ejs", []);
+		$response->setTemplate("home.ejs");
 	}
 }
