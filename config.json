@@ -1,7 +1,7 @@
 {
 	"name": "terminos",
-	"version": "2",
-	"description": "Muestra los terminos de servicio de Apretaste. Todo usuario tiene que cumplir con ellos.",
+	"version": 3,
+	"description": "Muestra los términos de uso de Apretaste que usuario tiene que cumplir.",
 	"category": "otros",
 	"creator": "salvi@apretaste.org",
 	"listed": true
