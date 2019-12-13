@@ -1,5 +1,8 @@
 <?php
 
+use Apretaste\Request;
+use Apretaste\Response;
+
 class Service
 {
 	/**
