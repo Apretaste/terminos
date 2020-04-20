@@ -1,6 +1,6 @@
 {
 	"name": "terminos",
-	"version": 3,
+	"caption": "Términos",
 	"description": "Muestra los términos de uso de Apretaste que usuario tiene que cumplir.",
 	"category": "otros",
 	"creator": "salvi@apretaste.org",
