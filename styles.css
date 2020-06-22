@@ -1,6 +1,12 @@
-.number {
+.collection.number-list .collection-item {
+	padding-left: 50px;
+}
+
+.collection.number-list .number {
 	width: 30px !important;
 	height: 30px !important;
 	line-height: 30px !important;
+	top: 15px  !important;
+	left: 10px !important;
 	font-style: normal;
 }
