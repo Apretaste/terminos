@@ -12,7 +12,7 @@ class Service
 	 * @param Request
 	 * @param Response
 	 */
-	public function _main(Request $request, Response $response)
+	public function _main (Request $request, Response $response)
 	{
 		Challenges::complete('read-terminos', $request->person->id);
 
@@ -26,9 +26,21 @@ class Service
 	 * @param Request
 	 * @param Response
 	 */
-	public function _pizarra(Request $request, Response $response)
+	public function _pizarra (Request $request, Response $response)
 	{
 		$response->setCache('month');
 		$response->setTemplate("pizarra.ejs");
+	}
+
+	/**
+	 * Terms of service for the influencers
+	 *
+	 * @param Request
+	 * @param Response
+	 */
+	public function _influencers (Request $request, Response $response)
+	{
+		$response->setCache('month');
+		$response->setTemplate("influencer.ejs");
 	}
 }
