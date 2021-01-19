@@ -2,6 +2,7 @@
 
 use Apretaste\Request;
 use Apretaste\Response;
+use Apretaste\Tutorial;
 use Apretaste\Challenges;
 
 class Service
@@ -14,8 +15,13 @@ class Service
 	 */
 	public function _main (Request $request, Response $response)
 	{
+		// complete challenge
 		Challenges::complete('read-terminos', $request->person->id);
 
+		// complete tutorial
+		Tutorial::complete($request->person->id, 'read_terms');
+
+		// send data to the view
 		$response->setCache('month');
 		$response->setTemplate("home.ejs");
 	}
