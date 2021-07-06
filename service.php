@@ -2,51 +2,48 @@
 
 use Apretaste\Request;
 use Apretaste\Response;
-use Apretaste\Tutorial;
-use Apretaste\Challenges;
 
 class Service
 {
 	/**
-	 * General terms of service for the app
+	 * General tab
 	 *
-	 * @param Request
-	 * @param Response
+	 * @param Request $request
+	 * @param Response $response
+	 * @throws Alert
+	 * @author salvipascual
 	 */
-	public function _main (Request $request, Response $response)
+	public function _main(Request $request, Response $response)
 	{
-		// complete challenge
-		Challenges::complete('read-terminos', $request->person->id);
-
-		// complete tutorial
-		Tutorial::complete($request->person->id, 'read_terms');
-
-		// send data to the view
-		$response->setCache('month');
-		$response->setTemplate("home.ejs");
+		$response->setCache();
+		$response->setComponent('General');
 	}
 
 	/**
-	 * Terms of service for service Pizarra
+	 * Pizarra tab
 	 *
-	 * @param Request
-	 * @param Response
+	 * @param Request $request
+	 * @param Response $response
+	 * @throws Alert
+	 * @author salvipascual
 	 */
-	public function _pizarra (Request $request, Response $response)
+	public function _pizarra(Request $request, Response $response)
 	{
-		$response->setCache('month');
-		$response->setTemplate("pizarra.ejs");
+		$response->setCache();
+		$response->setComponent('Pizarra');
 	}
 
 	/**
-	 * Terms of service for the influencers
+	 * Influencers tab
 	 *
-	 * @param Request
-	 * @param Response
+	 * @param Request $request
+	 * @param Response $response
+	 * @throws Alert
+	 * @author salvipascual
 	 */
-	public function _influencers (Request $request, Response $response)
+	public function _influencers(Request $request, Response $response)
 	{
-		$response->setCache('month');
-		$response->setTemplate("influencer.ejs");
+		$response->setCache();
+		$response->setComponent('Influencers');
 	}
 }

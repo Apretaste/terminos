@@ -2,9 +2,10 @@
 	"name": "terminos",
 	"caption": "Términos",
 	"icon": "fas fa-list-ol",
-	"description": "Muestra los términos de uso que los usuarios de Apretaste tienen que cumplir.",
+	"description": "Muestra los términos de uso de Apretaste que usuario tiene que cumplir.",
 	"category": "otros",
 	"creator": "salvi@apretaste.org",
 	"listed": true,
-	"guest": true
+	"guest": true,
+	"ads": true
 }
